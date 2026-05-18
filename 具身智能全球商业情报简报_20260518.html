@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>具身智能全球商业情报简报 · 2026年5月18日</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2c2c2c;
+    background: #f7f8fa;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+    background: #ffffff;
+    min-height: 100vh;
+  }
+  /* Header */
+  .report-header {
+    border-bottom: 3px solid #1a56db;
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  .report-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a56db;
+    letter-spacing: 0.5px;
+  }
+  .report-sub {
+    font-size: 13px;
+    color: #6b7280;
+    margin-top: 6px;
+  }
+  .report-meta {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #9ca3af;
+  }
+  .tag {
+    background: #eff6ff;
+    color: #1a56db;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  /* Modules */
+  .module {
+    margin-bottom: 40px;
+  }
+  .module-title {
+    font-size: 19px;
+    font-weight: 700;
+    color: #111827;
+    border-left: 4px solid #1a56db;
+    padding-left: 12px;
+    margin-bottom: 20px;
+  }
+  .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #374151;
+    margin: 24px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #1a56db;
+    border-radius: 50%;
+  }
+  .item-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+  }
+  .item-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 8px;
+  }
+  .item-body {
+    font-size: 14px;
+    color: #4b5563;
+    line-height: 1.7;
+  }
+  .item-body p {
+    margin-bottom: 4px;
+  }
+  .label {
+    display: inline-block;
+    font-weight: 600;
+    color: #374151;
+    min-width: 80px;
+  }
+  .highlight {
+    background: #fef3c7;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #92400e;
+  }
+  .source-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #6b7280;
+  }
+  .source-link a {
+    color: #1a56db;
+    text-decoration: none;
+  }
+  .source-link a:hover {
+    text-decoration: underline;
+  }
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    margin: 12px 0;
+  }
+  th {
+    background: #1a56db;
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+    font-weight: 600;
+  }
+  td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #374151;
+  }
+  tr:nth-child(even) td {
+    background: #f9fafb;
+  }
+  tr:hover td {
+    background: #eff6ff;
+  }
+  /* Priority table */
+  .priority-table th {
+    background: #065f46;
+  }
+  /* Alert box */
+  .alert {
+    background: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 12px 16px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #78350f;
+  }
+  .alert-red {
+    background: #fef2f2;
+    border-left-color: #ef4444;
+    color: #7f1d1d;
+  }
+  .alert-green {
+    background: #f0fdf4;
+    border-left-color: #22c55e;
+    color: #14532d;
+  }
+  /* Footer */
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 12px;
+    color: #9ca3af;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header -->
+  <div class="report-header">
+    <div class="report-title">具身智能全球商业情报简报</div>
+    <div class="report-sub">Embodied AI Global Business Intelligence Briefing</div>
+    <div class="report-meta">
+      <span>📅 2026年5月18日（周一）</span>
+      <span class="tag">极佳视界·销售VP专用版</span>
+      <span class="tag">BI情报助理自动生成</span>
+    </div>
+  </div>
+
+  <!-- Priority Overview -->
+  <div class="module">
+    <div class="module-title">⚡ 今日优先行动清单</div>
+    <table class="priority-table">
+      <thead>
+        <tr><th>优先级</th><th>情报要点</th><th>建议行动</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>🔴 最高</strong></td>
+          <td>国家电网68亿Q3采购窗口，6-8周内截止</td>
+          <td>立即确认极佳是否在供应商名单，启动技术交流</td>
+        </tr>
+        <tr>
+          <td><strong>🔴 最高</strong></td>
+          <td>极佳视界GigaWorld-1全球第一，估值破百亿</td>
+          <td>更新销售话术：世界模型赋能降本60-80%</td>
+        </tr>
+        <tr>
+          <td><strong>🟡 高</strong></td>
+          <td>Robotera 顺丰领投$2亿+，Q2已千台交付</td>
+          <td>顺丰物流场景=极佳世界模型潜在协作场景</td>
+        </tr>
+        <tr>
+          <td><strong>🟡 高</strong></td>
+          <td>杭州5月1日全国首部具身智能法规施行</td>
+          <td>联系杭州政府采购，推进法规合规解决方案</td>
+        </tr>
+        <tr>
+          <td><strong>🟢 中</strong></td>
+          <td>宇树IPO冲刺5-6月，毛利率59%</td>
+          <td>竞品财务参数参考，调整自身定价策略</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Module 1 -->
+  <div class="module">
+    <div class="module-title">模块一：商机漏斗与采购风向</div>
+
+    <div class="section-title">【中国】招投标与采购需求</div>
+
+    <div class="item-card">
+      <div class="item-title">① 国家电网 — <span class="highlight">68亿元</span> 具身智能设备史上最大采购</div>
+      <div class="item-body">
+        <p><span class="label">需求主体：</span>国家电网有限公司</p>
+        <p><span class="label">场景描述：</span>电力巡检、带电作业、应急救援、仓储物流四大场景，分Q1试点→Q3规模化→Q4补充三批次</p>
+        <p><span class="label">预算规模：</span>约68亿元，Q3规模化采购窗口期仅剩6-8周</p>
+        <table>
+          <thead>
+            <tr><th>品类</th><th>台数</th><th>预算</th><th>部署场景</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>四足巡检机器狗</td><td>5,000台</td><td>15亿元</td><td>变电站/输电线路/山区</td></tr>
+            <tr><td>人形带电作业机器人</td><td>500台</td><td>25亿元</td><td>配网带电/特高压</td></tr>
+            <tr><td>双臂巡检机器人</td><td>若干</td><td>18亿元</td><td>综合变电站</td></tr>
+          </tbody>
+        </table>
+        <p><span class="label">入围企业：</span>云深处、宇树、智元、优必选、傅利叶</p>
+      </div>
+      <div class="source-link">📎 来源：<a href="https://36kr.com/p/3780742359243776" target="_blank">36氪 — 68亿采购来了</a> | <a href="https://zhidx.com/p/552717.html" target="_blank">智东西报道</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">② 广西政府 — 具身智能机器人创新中心建设（GXZC2026-C3-000003-GXJZ）</div>
+      <div class="item-body">
+        <p><span class="label">需求主体：</span>广西壮族自治区政府采购平台</p>
+        <p><span class="label">场景描述：</span>创新中心整体建设（硬件+软件+系统集成），竞争性磋商进行中</p>
+        <p><span class="label">预算规模：</span>待公告（竞争性磋商，需关注后续开标）</p>
+      </div>
+      <div class="source-link">📎 来源：<a href="https://obs.gcy.zfcg.gxzf.gov.cn/guangxi-gov-open-doc/1024FPA/450224/10009865814/20261/8bbb3c3c-d0fc-4979-9895-fc05f713711d.pdf" target="_blank">广西政府采购网 — 招标文件</a></div>
+    </div>
+
+    <div class="section-title">【中国+全球】标杆商业合作</div>
+
+    <div class="item-card">
+      <div class="item-title">① 银河通用 × 百达精工：超千台工业人形规模落地</div>
+      <div class="item-body">
+        <p><span class="label">合作规模：</span>超1,000台人形机器人部署于百达精工及其生态体系</p>
+        <p><span class="label">商业闭环：</span>本体销售 + 端到端大模型"银河星脑" + 场景精调服务，按台收费+软件年费双轨制</p>
+        <p><span class="label">商业意义：</span>验证"批量落地→持续SaaS服务"的商业模式可行性，国内最大规模工业人形部署之一</p>
+      </div>
+      <div class="source-link">📎 来源：<a href="https://www.21jingji.com/article/20260512/herald/766fb504b0bbce0194261a00596e1207.html" target="_blank">21经济网 — 智元2026王闯专访</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">② 智元 × 龙旗科技：消费电子精密制造近千台</div>
+      <div class="item-body">
+        <p><span class="label">合作规模：</span>近千台智元远征A系列进入龙旗科技核心生产线</p>
+        <p><span class="label">商业闭环：</span>"0元试用→效果验证→规模采购"分阶段渗透策略</p>
+        <p><span class="label">商业意义：</span>高精度消费电子场景落地，验证人形机器人灵巧作业能力</p>
+      </div>
+      <div class="source-link">📎 来源：<a href="https://www.tmtpost.com/7970809.html" target="_blank">钛媒体 — 智元新增订单超万台</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">③【全球】Boston Dynamics Atlas × 现代汽车：工厂规模部署启动</div>
+      <div class="item-body">
+        <p><span class="label">合作规模：</span>计划数万台，在RMAC（机器人元工厂应用中心）分批部署，2026年首批交付</p>
+        <p><span class="label">商业闭环：</span>整机销售 + Google DeepMind AI赋能 + OTA持续升级</p>
+        <p><span class="label">商业意义：</span>全球汽车制造业迄今最大规模人形机器人落地，产线替代的里程碑式商业路径</p>
+      </div>
+      <div class="source-link">📎 来源：<a href="https://www.benzinga.com/markets/tech/26/01/49715225/boston-dynamics-debuts-tesla-optimus-rival-atlas-robot-teams-up-with-google-deepmind-as-hyundai-prepares-deployment" target="_blank">Benzinga — Atlas携手Google DeepMind，现代汽车开始部署</a></div>
+    </div>
+  </div>
+
+  <!-- Module 2 -->
+  <div class="module">
+    <div class="module-title">模块二：竞品动向与市场博弈</div>
+
+    <div class="section-title">【中国】竞品商业策略</div>
+
+    <div class="item-card">
+      <div class="item-title">智元机器人 — 全球出货量第一，万台下线</div>
+      <div class="item-body">
+        <p><span class="label">市场地位：</span>全球人形机器人出货量第一，5,168台，占全球39%市场份额</p>
+        <p><span class="label">最新动作：</span>第10,000台远征A3下线；新增订单超万台；5月12日香港合作伙伴大会攻伐亚太</p>
+        <p><span class="label">价格策略：</span>"0元试用期→效果达标后批量付款"，极大降低客户决策门槛</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.stcn.com/article/detail/3582809.html" target="_blank">证券时报 — 智元登顶全球出货榜</a> | <a href="https://www.tmtpost.com/7970809.html" target="_blank">钛媒体 — 智元订单超万台</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">宇树科技 — IPO冲刺，全行业首家盈利整机企业</div>
+      <div class="item-body">
+        <p><span class="label">IPO进展：</span>2026年3月科创板IPO申请获上交所受理，拟募资<span class="highlight">42.02亿元</span>，预计5-6月上市</p>
+        <p><span class="label">财务亮点：</span>2025年前三季度营收11.67亿元，净利润4.3亿元，毛利率<span class="highlight">59.45%</span></p>
+        <p><span class="label">新品：</span>全球首款量产版载人变形机甲GD01，售价390万元起，开辟高端特种装备赛道</p>
+      </div>
+      <div class="source-link">📎 <a href="https://eu.36kr.com/zh/p/3651857994380033" target="_blank">36氪 — 宇树拒绝屈居第二</a> | <a href="https://wallstreetcn.com/articles/3772068" target="_blank">华尔街见闻 — GD01发布</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">银河通用（Galbot）— 英伟达深度绑定，合成数据领跑</div>
+      <div class="item-body">
+        <p><span class="label">技术路线：</span>与英伟达Isaac平台深度绑定；99%合成数据训练，真实数据仅占1%</p>
+        <p><span class="label">新里程碑：</span>端到端大模型"银河星脑"发布，机器人从"表演"跨越到"真正上岗"</p>
+        <p><span class="label">估值：</span>B+轮后估值约211亿元人民币（约30亿美元）</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.tmtpost.com/7973821.html" target="_blank">钛媒体 — 银河通用+英伟达</a> | <a href="https://www.qbitai.com/2026/02/380787.html" target="_blank">量子位 — 银河星脑</a></div>
+    </div>
+
+    <div class="section-title">【全球】竞品动向</div>
+    <div class="item-card">
+      <div class="item-title">Tesla Optimus Gen 3 &amp; Figure AI Figure 03</div>
+      <div class="item-body">
+        <p><span class="label">Tesla：</span>Gen 3最终研发中，低量产目标夏季启动；Musk"数千台工厂部署"承诺落空，进度滞后</p>
+        <p><span class="label">Figure AI：</span>Figure 03在BMW Spartanburg工厂试点成功，搭载Helix AI模型，正在扩产</p>
+      </div>
+      <div class="source-link">📎 <a href="https://vfuturemedia.com/future-tech/humanoid-robots-enter-the-workforce-figure-boston-dynamics-and-tesla-optimus-2026/" target="_blank">vFuture — 2026年人形机器人竞争格局</a></div>
+    </div>
+
+    <div class="section-title">【中国+全球】投融资速递</div>
+    <table>
+      <thead>
+        <tr><th>公司</th><th>轮次</th><th>金额</th><th>投资方</th><th>备注</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Robotera（铸知）</strong></td>
+          <td>新一轮</td>
+          <td>超$2亿（~14.6亿元）</td>
+          <td>顺丰集团领投+HSG/IDG/高瓴/中金</td>
+          <td>Q2已开始千台交付；5月8日披露</td>
+        </tr>
+        <tr>
+          <td><strong>Vbot</strong></td>
+          <td>Pre-A</td>
+          <td>约$7,300万（~5.3亿元）</td>
+          <td>未披露</td>
+          <td>拓展全尺寸人形机器人量产；5月11日披露</td>
+        </tr>
+        <tr>
+          <td><strong>极佳视界</strong></td>
+          <td>B1轮</td>
+          <td>近15亿元人民币</td>
+          <td>中信聚源+上海半导体产业投资基金</td>
+          <td>估值超百亿，中国首个世界模型独角兽</td>
+        </tr>
+        <tr>
+          <td><strong>银河通用</strong></td>
+          <td>B+轮</td>
+          <td>超$3亿（~21.8亿元）</td>
+          <td>国家大基金三期首次出手具身智能</td>
+          <td>估值约$30亿（约211亿元人民币）</td>
+        </tr>
+        <tr>
+          <td><strong>宇树科技</strong></td>
+          <td>科创板IPO</td>
+          <td>拟募资42亿元</td>
+          <td>A股市场</td>
+          <td>全行业首家盈利整机企业，预计5-6月上市</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="alert alert-green" style="margin-top:10px;">
+      📊 宏观数据：2026年Q1国内具身智能赛道融资超200亿元（同比+60%），全年至今已超525亿元；全行业已涌现超23家"百亿俱乐部"企业。
+    </div>
+    <div style="font-size:12px;color:#6b7280;margin-top:4px;">
+      来源：<a href="https://theaiinsider.tech/2026/05/08/chinas-humanoid-robot-maker-robotera-raises-over-usd-200m-in-new-funding-round/" target="_blank">AIInsider-Robotera</a> | <a href="https://theaiinsider.tech/2026/05/11/report-chinese-humanoid-robot-startup-vbot-raises-usd-73m-in-pre-a-funding/" target="_blank">AIInsider-Vbot</a> | <a href="https://36kr.com/p/3710076436557954" target="_blank">36氪-极佳视界</a> | <a href="https://technode.com/2026/03/02/humanoid-robot-maker-galbot-raises-rmb-2-5-billion/" target="_blank">TechNode-银河通用</a>
+    </div>
+  </div>
+
+  <!-- Module 3 -->
+  <div class="module">
+    <div class="module-title">模块三：技术赋能与政策杠杆</div>
+
+    <div class="section-title">【中国+全球】核心技术进展</div>
+
+    <div class="item-card">
+      <div class="item-title">① 极佳视界 GigaWorld-1 — 世界模型全球第一，超越谷歌英伟达</div>
+      <div class="item-body">
+        <p><span class="label">技术突破：</span>2026年3月25日在WorldArena评测中登顶，综合得分超60分，唯一过线的具身世界模型</p>
+        <p><span class="label">商业痛点：</span>解决机器人跨场景迁移的数据采集成本问题——合成数据占比90%，工位切换成本降低<span class="highlight">60-80%</span></p>
+        <p><span class="label">效果量化：</span>Zero-Shot任务成功率从30% → 80%；新场景适应从"周级培训"压缩到"小时级微调"</p>
+        <p><span class="label">生态红利：</span>开源半月下载量达16K，正在成为行业训练数据标准制定者</p>
+        <p><span class="label">销售话术：</span>"极佳视界的世界模型技术是GigaWorld-1的核心引擎，您的产线新增一个工位，原来要几周培训，现在只需几小时微调"</p>
+      </div>
+      <div class="source-link">📎 <a href="https://news.qq.com/rain/a/20260330A05EMC00" target="_blank">腾讯新闻 — GigaWorld-1登场</a> | <a href="https://www.infoq.cn/article/Ea7qoZWYLkDqY8mvDfzG" target="_blank">InfoQ — 世界模型全球第一</a> | <a href="https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202604/t20260401_242656.html" target="_blank">国科技报</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">② 阿里 WorldVLA — 统一世界模型与VLA架构</div>
+      <div class="item-body">
+        <p><span class="label">技术突破：</span>自回归同时生成动作序列和未来帧预测，机器人"边行动边想象"</p>
+        <p><span class="label">商业价值：</span>泛化能力大幅提升，减少真实数据需求，降本增效30-50%</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.36kr.com/p/3530107364400256" target="_blank">36氪 — 阿里统一了VLA和世界模型</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">③ 英伟达 Jetson Thor（Blackwell架构）— 人形机器人算力标配正式发售</div>
+      <div class="item-body">
+        <p><span class="label">技术落地：</span>银河通用G1 Premium成为首批搭载机型，工业码垛/拆垛场景验证流畅</p>
+        <p><span class="label">商业价值：</span>统一算力平台，整机商开发成本下降，产品上市周期缩短约40%</p>
+        <p><span class="label">销售话术：</span>英伟达算力背书 = 行业认可的算力标准，向大客户传递技术可信度的最强背书</p>
+      </div>
+      <div class="source-link">📎 <a href="https://blogs.nvidia.cn/blog/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics/" target="_blank">英伟达博客 — Jetson Thor发售</a></div>
+    </div>
+
+    <div class="section-title">【中国】政策红利与产业扶持</div>
+
+    <div class="alert alert-red">
+      🏛️ <strong>重大政策：</strong>全国首部具身智能机器人地方性法规《杭州市促进具身智能机器人产业发展条例》已于<strong>2026年5月1日</strong>正式施行。杭州已集聚700余家机器人企业，2025年产值达1,068亿元。
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">① 杭州 — 全国首部具身智能地方性法规（2026年5月1日施行）</div>
+      <div class="item-body">
+        <p><span class="label">政策内容：</span>7章50条，覆盖技术创新→基础设施→产业发展→应用赋能→安全管理全链条</p>
+        <p><span class="label">战略意义：</span>首部立法 = 政府采购优先本地供应链，可借"合规"切入点向杭州政府采购体系推进</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.thepaper.cn/newsDetail_forward_33083043" target="_blank">澎湃新闻 — 全国首部法规5月施行</a> | <a href="https://www.nbd.com.cn/articles/2026-05-01/4377557.html" target="_blank">每经网</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">② 上海徐汇区 — 最高3,000万元/年综合支持</div>
+      <div class="item-body">
+        <p><span class="label">补贴上限：</span>落地一次性最高1,000万元 + 年度发展最高2,000万元 + 实验基地最高1,000万元（投入50%）</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.sh-hitech.com/ryrd/17722.html" target="_blank">上海科技企业服务 — 徐汇区政策</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">③ 广州花都区 — 10条措施加速产业落地</div>
+      <div class="item-body">
+        <p><span class="label">租金补贴：</span>新招引企业第1年租金50%，单企业最高150万元/年</p>
+        <p><span class="label">场景补贴：</span>应用场景示范单项目总投入50%，最高500万元</p>
+      </div>
+      <div class="source-link">📎 <a href="https://www.gz.gov.cn/gzzcwjk/gzdata/content/post_10205533.html" target="_blank">广州市政府 — 花都区10条措施</a></div>
+    </div>
+
+    <div class="item-card">
+      <div class="item-title">④ 深圳 — 具身智能机器人技术创新与产业发展政策，开放申报</div>
+      <div class="item-body">
+        <p><span class="label">政策框架：</span>《深圳市具身智能机器人技术创新与产业发展行动计划（2025-2027年）》，技术创新补贴+产业化落地奖励</p>
+      </div>
+      <div class="source-link">📎 <a href="https://stic.sz.gov.cn/xxgk/tzgg/content/post_12081948.html" target="_blank">深圳市科技创新局</a></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    本报告由BI情报助理自动生成 · 信息截至2026年5月18日 · 所有数据均附来源可溯源<br>
+    极佳视界（极佳科技）销售副总裁专用版 · 如有疑问请与BI情报助理对话
+  </div>
+
+</div>
+</body>
+</html>
